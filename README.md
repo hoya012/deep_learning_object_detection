@@ -3,7 +3,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 *Last updated: 2018/9/18*
 
-## paper List from 2013 to now(2018)
+## paper List from 2014 to now(2018)
 
 <p align="center">
   <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of anomaly detection.">
