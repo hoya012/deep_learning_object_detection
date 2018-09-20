@@ -41,7 +41,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 ## 2016
 
-- **[YOLO v1]** You Only Look Once: Unified, Real-Time Object Detection | Joseph Redmon, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1506.02640.pdf)
+- **[YOLO v1]** You Only Look Once: Unified, Real-Time Object Detection | Joseph Redmon, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1506.02640.pdf) [`[official code - c++]`](https://pjreddie.com/darknet/yolo/) 
 
 - **[G-CNN]** G-CNN: an Iterative Grid Based Object Detector | Mahyar Najibi, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1512.07729.pdf)
 
@@ -51,11 +51,11 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - **[HyperNet]** HyperNet: Towards Accurate Region Proposal Generation and Joint Object Detection | Tao Kong, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.00600.pdf)
 
-- **[OHEM]** Training Region-based Object Detectors with Online Hard Example Mining | Abhinav Shrivastava, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.03540.pdf)
+- **[OHEM]** Training Region-based Object Detectors with Online Hard Example Mining | Abhinav Shrivastava, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.03540.pdf) [`[official code - caffe]`](https://github.com/abhi2610/ohem) 
 
-- **[CRAPF]** CRAFT Objects from Images | Bin Yang, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.03239.pdf)
+- **[CRAPF]** CRAFT Objects from Images | Bin Yang, et al. | **[CVPR' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.03239.pdf) [`[official code - caffe]`](https://github.com/byangderek/CRAFT) 
 
-- **[MPN]** A MultiPath Network for Object Detection | Sergey Zagoruyko, et al. | **[BMVC' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.02135.pdf)
+- **[MPN]** A MultiPath Network for Object Detection | Sergey Zagoruyko, et al. | **[BMVC' 16]** |[`[pdf]`](https://arxiv.org/pdf/1604.02135.pdf) [`[official code - torch]`](https://github.com/facebookresearch/multipathnet) 
 
 - **[SSD]** SSD: Single Shot MultiBox Detector | Wei Liu, et al. | **[ECCV' 16]** |[`[pdf]`](https://arxiv.org/pdf/1512.02325.pdf)
 
