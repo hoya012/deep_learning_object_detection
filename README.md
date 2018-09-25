@@ -118,7 +118,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 ## Contact & Feedback
 
-If you have any suggenstions about papers, feel free to mail me :)
+If you have any suggestions about papers, feel free to mail me :)
 
 - [e-mail](mailto:lee.hoseong@sualab.com)
 - [blog](https://hoya012.github.io/)
