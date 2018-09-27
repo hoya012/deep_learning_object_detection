@@ -5,7 +5,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
-*2018/9/20* - update codes of papers. (official and unofficial)
+*2018/9/26* - update codes of papers. (official and unofficial)
 
 ## paper list from 2014 to now(2018)
 
