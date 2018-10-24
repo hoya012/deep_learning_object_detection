@@ -10,6 +10,12 @@ A paper list of object detection using deep learning. I worte with reference to 
 *2018/10/12* - update 1 paper.
 *2018/10/24* - update performance table.
 
+## paper list from 2014 to now(2018)
+
+<p align="center">
+  <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of anomaly detection.">
+</p>
+
 ## performance table
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
@@ -56,11 +62,6 @@ A paper list of object detection using deep learning. I worte with reference to 
 |    MegDet    |          -          |          -          |    52.5    |    CVPR'18   |
 |    RFBNet    |                     |                     |            |    ECCV'18   |
 
-## paper list from 2014 to now(2018)
-
-<p align="center">
-  <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of anomaly detection.">
-</p>
 
 - [2014](#2014)
 - [2015](#2015)
