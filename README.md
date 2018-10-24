@@ -58,7 +58,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 |    YOLO v3   |          -          |          -          |    33.0    |   Arxiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
-|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    41.8    |    CVPR'18   |
+|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    **41.8**    |    CVPR'18   |
 |    MegDet    |          -          |          -          |      -     |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
 
