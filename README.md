@@ -21,20 +21,20 @@ A paper list of object detection using deep learning. I worte with reference to 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
 |     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
-|   OverFeat   |                     |                     |            |    ICLR'14   |
+|   OverFeat   |           -         |          -          |      -     |    ICLR'14   |
 |   MultiBox   |         29.0        |          -          |      -     |    CVPR'14   |
-|    SPP-Net   |                     |                     |            |    ECCV'14   |
+|    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
 |    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
-| AttentionNet |                     |                     |            |    ICCV'15   |
-|  Fast R-CNN  |                     |                     |            |    ICCV'15   |
-| Faster R-CNN |                     |                     |            |    NIPS'15   |
-|    YOLO v1   |                     |                     |            |    CVPR'16   |
-|     G-CNN    |                     |                     |            |    CVPR'16   |
+| AttentionNet |           -         |          -          |      -     |    ICCV'15   |
+|  Fast R-CNN  |     70.0 (07+12)    |     68.4 (07++12)   |      -     |    ICCV'15   |
+| Faster R-CNN |     73.2 (07+12)    |     70.4 (07++12)   |      -     |    NIPS'15   |
+|    YOLO v1   |     66.4 (07+12)    |     57.9 (07++12)   |      -     |    CVPR'16   |
+|     G-CNN    |         66.8        |     66.4 (07+12)    |      -     |    CVPR'16   |
 |     AZNet    |         70.4        |          -          |    22.3    |    CVPR'16   |
 |      ION     |         80.1        |         77.9        |    33.1    |    CVPR'16   |
-|   HyperNet   |                     |                     |            |    CVPR'16   |
+|   HyperNet   |     76.3 (07+12)    |    71.4 (07++12)    |      -     |    CVPR'16   |
 |     OHEM     |     78.9 (07+12)    |    76.3 (07++12)    |    22.4    |    CVPR'16   |
-|      MPN     |                     |                     |            |    BMVC'16   |
+|      MPN     |           -         |          -          |    33.2    |    BMVC'16   |
 |      SSD     |                     |                     |            |    ECCV'16   |
 |    GBDNet    |     77.2 (07+12)    |          -          |    27.0    |    ECCV'16   |
 |      CPF     |     76.4 (07+12)    |    72.6 (07++12)    |      -     |    ECCV'16   |
