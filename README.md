@@ -35,27 +35,27 @@ A paper list of object detection using deep learning. I worte with reference to 
 |   HyperNet   |     76.3 (07+12)    |    71.4 (07++12)    |      -     |    CVPR'16   |
 |     OHEM     |     78.9 (07+12)    |    76.3 (07++12)    |    22.4    |    CVPR'16   |
 |      MPN     |           -         |          -          |    33.2    |    BMVC'16   |
-|      SSD     |                     |                     |            |    ECCV'16   |
+|      SSD     |     76.8 (07+12)    |    74.9 (07++12)    |      -     |    ECCV'16   |
 |    GBDNet    |     77.2 (07+12)    |          -          |    27.0    |    ECCV'16   |
 |      CPF     |     76.4 (07+12)    |    72.6 (07++12)    |      -     |    ECCV'16   |
-|    MS-CNN    |                     |                     |            |    ECCV'16   |
-|     R-FCN    |                     |                     |            |    NIPS'16   |
-|    PVANET    |                     |                     |            |   NIPSW'16   |
+|    MS-CNN    |           -         |          -          |      -     |    ECCV'16   |
+|     R-FCN    |     79.5 (07+12)    |    77.6 (07++12)    |    29.9    |    NIPS'16   |
+|    PVANET    |          -          |          -          |      -     |   NIPSW'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
-|      NoC     |                     |                     |            |   TPAMI'16   |
-|     DSSD     |                     |                     |            |   Arxiv'17   |
-|      TDM     |                     |                     |            |    CVPR'17   |
-|      FPN     |                     |                     |            |    CVPR'17   |
-|    YOLO v2   |                     |                     |            |    CVPR'17   |
-|      RON     |                     |                     |            |    CVPR'17   |
-|      DCN     |                     |                     |            |    ICCV'17   |
+|      NoC     |     71.6 (07+12)    |    68.8 (07+12)     |    27.2    |   TPAMI'16   |
+|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   Arxiv'17   |
+|      TDM     |          -          |          -          |    37.3    |    CVPR'17   |
+|      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
+|    YOLO v2   |     78.6 (07+12)    |    73.4 (07++12)    |      -     |    CVPR'17   |
+|      RON     |     77.6 (07+12)    |    75.4 (07++12)    |      -     |    CVPR'17   |
+|      DCN     |          -          |          -          |      -     |    ICCV'17   |
 |     DeNet    |     77.1 (07+12)    |    73.9 (07++12)    |    33.8    |    ICCV'17   |
 |   CoupleNet  |     82.7 (07+12)    |    80.4 (07++12)    |    34.4    |    ICCV'17   |
 |   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
-|  Mask R-CNN  |                     |                     |            |    ICCV'17   |
+|  Mask R-CNN  |          -          |          -          |      -     |    ICCV'17   |
 |     DSOD     |     77.7 (07+12)    |    76.3 (07++12)    |      -     |    ICCV'17   |
 |      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
-|    YOLO v3   |                     |                     |            |   Arxiv'18   |
+|    YOLO v3   |          -          |          -          |    33.0    |   Arxiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |                     |                     |            |    CVPR'18   |
 |   RefineDet  |                     |                     |            |    CVPR'18   |
