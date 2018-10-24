@@ -14,16 +14,14 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
-|     R-CNN    |                     |                     |            |    CVPR'14   |
+|     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
 |   OverFeat   |                     |                     |            |    ICLR'14   |
 |   MultiBox   |         29.0        |          -          |      -     |    CVPR'14   |
 |    SPP-Net   |                     |                     |            |    ECCV'14   |
-|||||| 
 |    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
 | AttentionNet |                     |                     |            |    ICCV'15   |
 |  Fast R-CNN  |                     |                     |            |    ICCV'15   |
 | Faster R-CNN |                     |                     |            |    NIPS'15   |
-||||||
 |    YOLO v1   |                     |                     |            |    CVPR'16   |
 |     G-CNN    |                     |                     |            |    CVPR'16   |
 |     AZNet    |         70.4        |          -          |    22.3    |    CVPR'16   |
@@ -39,7 +37,6 @@ A paper list of object detection using deep learning. I worte with reference to 
 |    PVANET    |                     |                     |            |   NIPSW'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
 |      NoC     |                     |                     |            |   TPAMI'16   |
-||||||
 |     DSSD     |                     |                     |            |   Arxiv'17   |
 |      TDM     |                     |                     |            |    CVPR'17   |
 |      FPN     |                     |                     |            |    CVPR'17   |
@@ -52,7 +49,6 @@ A paper list of object detection using deep learning. I worte with reference to 
 |  Mask R-CNN  |                     |                     |            |    ICCV'17   |
 |     DSOD     |     77.7 (07+12)    |    76.3 (07++12)    |      -     |    ICCV'17   |
 |      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
-||||||
 |    YOLO v3   |                     |                     |            |   Arxiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |                     |                     |            |    CVPR'18   |
