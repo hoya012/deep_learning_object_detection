@@ -1,14 +1,14 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf)  
 
-*Last updated: 2018/10/24*
+*Last updated: 2018/10/25*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
 *2018/9/26* - update codes of papers. (official and unofficial)  
 *2018/10/05* - update 3 papers.  
 *2018/10/12* - update 1 paper.
-*2018/10/24* - update performance table.
+*2018/10/25* - update performance table and add 1 paper.
 
 ## paper list from 2014 to now(2018)
 
@@ -157,6 +157,8 @@ A paper list of object detection using deep learning. I worte with reference to 
 ## 2018
 
 - **[YOLO v3]** YOLOv3: An Incremental Improvement | Joseph Redmon, Ali Farhadi | **[Arxiv' 18]** |[`[pdf]`](https://pjreddie.com/media/files/papers/YOLOv3.pdf) [`[official code - c++]`](https://pjreddie.com/darknet/yolo/) [`[unofficial code - pytorch]`](https://github.com/ayooshkathuria/pytorch-yolo-v3) [`[unofficial code - pytorch]`](https://github.com/eriklindernoren/PyTorch-YOLOv3) [`[unofficial code - keras]`](https://github.com/qqwweee/keras-yolo3) [`[unofficial code - tensorflow]`](https://github.com/mystic123/tensorflow-yolo-v3)
+
+- **[ZIP]** Zoom Out-and-In Network with Recursive Training for Object Proposal | Hongyang Li, et al. | **[IJCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1702.05711.pdf) [`[official code - caffe]`](https://github.com/hli2020/zoom_network)
 
 - **[SIN]** Structure Inference Net: Object Detection Using Scene-Level Context and Instance-Level Relationships | Yong Liu, et al. | **[CVPR' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Structure_Inference_Net_CVPR_2018_paper.pdf) [`[official code - tensorflow]`](https://github.com/choasup/SIN)
 
