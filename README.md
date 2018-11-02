@@ -1,14 +1,15 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf)  
 
-*Last updated: 2018/10/25*
+*Last updated: 2018/11/02*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
 *2018/9/26* - update codes of papers. (official and unofficial)  
 *2018/10/05* - update 3 papers.  
 *2018/10/12* - update 1 paper.  
-*2018/10/25* - update performance table and add 1 paper.
+*2018/10/25* - update performance table and add 1 paper.   
+*2018/11/02* - update 1 paper.  
 
 ## paper list from 2014 to now(2018)
 
@@ -169,6 +170,8 @@ A paper list of object detection using deep learning. I worte with reference to 
 - **[MegDet]** MegDet: A Large Mini-Batch Object Detector | Chao Peng, et al. | **[CVPR' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_cvpr_2018/papers/Peng_MegDet_A_Large_CVPR_2018_paper.pdf)
 
 - **[DA Faster R-CNN]** Domain Adaptive Faster R-CNN for Object Detection in the Wild | Yuhua Chen, et al. | **[CVPR' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf) [`[official code - caffe]`](https://github.com/yuhuayc/da-faster-rcnn)
+
+- **[SNIP]** An Analysis of Scale Invariance in Object Detection – SNIP | Bharat Singh, Larry S. Davis | **[CVPR' 18]** |[`[pdf]`](https://arxiv.org/pdf/1711.08189.pdf)
 
 - **[STDnet]** STDnet: A ConvNet for Small Target Detection | Brais Bosquet, et al. | **[BMVC' 18]** |[`[pdf]`](http://bmvc2018.org/contents/papers/0897.pdf)
 
