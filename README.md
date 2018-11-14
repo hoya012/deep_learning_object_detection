@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf)  
 
-*Last updated: 2018/11/05*
+*Last updated: 2018/11/14*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -10,7 +10,8 @@ A paper list of object detection using deep learning. I worte with reference to 
 *2018/10/12* - update 1 paper.  
 *2018/10/25* - update performance table and add 1 paper.   
 *2018/11/02* - update 2 papers.  
-*2018/11/05* - update 1 papers.  
+*2018/11/05* - update 1 paper.  
+*2018/11/14* - update 1 paper.  
 
 
 ## paper list from 2014 to now(2018)
@@ -179,6 +180,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - **[Cascade R-CNN]** Cascade R-CNN: Delving into High Quality Object Detection | Zhaowei Cai, et al. | **[CVPR' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf) [`[official code - caffe]`](https://github.com/zhaoweicai/cascade-rcnn)
 
+- Finding Tiny Faces in the Wild with Generative Adversarial Network | Yancheng Bai, et al. | **[CVPR' 18]** |[`[pdf]`](https://ivul.kaust.edu.sa/Documents/Publications/2018/Finding%20Tiny%20Faces%20in%20the%20Wild%20with%20Generative%20Adversarial%20Network.pdf)
 
 - **[STDnet]** STDnet: A ConvNet for Small Target Detection | Brais Bosquet, et al. | **[BMVC' 18]** |[`[pdf]`](http://bmvc2018.org/contents/papers/0897.pdf)
 
