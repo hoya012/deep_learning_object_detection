@@ -48,7 +48,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 |    PVANET    |          -          |          -          |      -     |   NIPSW'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
 |      NoC     |     71.6 (07+12)    |    68.8 (07+12)     |    27.2    |   TPAMI'16   |
-|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   Arxiv'17   |
+|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   arXiv'17   |
 |      TDM     |          -          |          -          |    37.3    |    CVPR'17   |
 |      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
 |    YOLO v2   |     78.6 (07+12)    |    73.4 (07++12)    |      -     |    CVPR'17   |
