@@ -12,7 +12,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 *2018/11/02* - update 2 papers.  
 *2018/11/05* - update 1 paper.  
 *2018/11/14* - update 1 paper.  
-*2018/11/30* - update 2 paper.  
+*2018/11/30* - update 3 paper(NIPS).  
 
 
 ## paper list from 2014 to now(2018)
@@ -192,6 +192,9 @@ A paper list of object detection using deep learning. I worte with reference to 
 - **[Pelee]** Pelee: A Real-Time Object Detection System on Mobile Devices | Jun Wang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) [`[official code - caffe]`](https://github.com/Robert-JunWang/Pelee)
 
 - **[HKRM]** Hybrid Knowledge Routed Modules for Large-scale Object Detection | ChenHan Jiang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection.pdf) 
+
+- **[MetaAnchor]** MetaAnchor: Learning to Detect Objects with Customized Anchors | Tong Yang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors.pdf) 
+
 
 ## Contact & Feedback
 
