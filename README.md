@@ -12,7 +12,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 *2018/11/02* - update 2 papers.  
 *2018/11/05* - update 1 paper.  
 *2018/11/14* - update 1 paper.  
-*2018/11/30* - update 3 paper(NIPS).  
+*2018/11/30* - update 5 paper.  
 
 
 ## paper list from 2014 to now(2018)
@@ -73,6 +73,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 - [2016](#2016)
 - [2017](#2017)
 - [2018](#2018)
+- [2019](#2019)
 
 ## 2014
 
@@ -152,7 +153,6 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - **[RetinaNet]** Focal Loss for Dense Object Detection | Tsung-Yi Lin, et al. | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1708.02002.pdf) [`[official code - keras]`](https://github.com/fizyr/keras-retinanet) [`[unofficial code - pytorch]`](https://github.com/kuangliu/pytorch-retinanet) [`[unofficial code - mxnet]`](https://github.com/unsky/RetinaNet) [`[unofficial code - tensorflow]`](https://github.com/tensorflow/tpu/tree/master/models/official/retinanet)
 
-
 - **[Mask R-CNN]** Mask R-CNN | Kaiming He, et al. | **[ICCV' 17]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) [`[official code - caffe2]`](https://github.com/facebookresearch/Detectron) [`[unofficial code - tensorflow]`](https://github.com/matterport/Mask_RCNN) [`[unofficial code - tensorflow]`](https://github.com/CharlesShang/FastMaskRCNN) [`[unofficial code - pytorch]`](https://github.com/multimodallearning/pytorch-mask-rcnn)
 
 - **[DSOD]** DSOD: Learning Deeply Supervised Object Detectors from Scratch | Zhiqiang Shen, et al. | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1708.01241.pdf) [`[official code - caffe]`](https://github.com/szq0214/DSOD) [`[unofficial code - pytorch]`](https://github.com/uoip/SSD-variants) 
@@ -189,11 +189,16 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - Zero-Annotation Object Detection with Web Knowledge Transfer | Qingyi Tao, et al. | **[ECCV' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Qingyi_Tao_Zero-Annotation_Object_Detection_ECCV_2018_paper.pdf)
 
+- **[CornerNet]** CornerNet: Detecting Objects as Paired Keypoints | Hei Law, et al. | **[ECCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1808.01244.pdf) [`[official code - pytorch]`](https://github.com/princeton-vl/CornerNet)
+
 - **[Pelee]** Pelee: A Real-Time Object Detection System on Mobile Devices | Jun Wang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) [`[official code - caffe]`](https://github.com/Robert-JunWang/Pelee)
 
 - **[HKRM]** Hybrid Knowledge Routed Modules for Large-scale Object Detection | ChenHan Jiang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection.pdf) 
 
 - **[MetaAnchor]** MetaAnchor: Learning to Detect Objects with Customized Anchors | Tong Yang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors.pdf) 
+
+## 2019
+- **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Jun Wang, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
 
 
 ## Contact & Feedback
