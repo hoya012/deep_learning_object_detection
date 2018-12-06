@@ -201,7 +201,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 
 ## 2019
-- **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Jun Wang, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
+- **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Qijie Zhao, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
 
 
 ## Contact & Feedback
