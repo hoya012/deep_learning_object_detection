@@ -6,14 +6,9 @@ A paper list of object detection using deep learning. I worte with reference to 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
 *2018/9/26* - update codes of papers. (official and unofficial)  
-*2018/10/05* - update 3 papers.  
-*2018/10/12* - update 1 paper.  
-*2018/10/25* - update performance table and add 1 paper.   
-*2018/11/02* - update 2 papers.  
-*2018/11/05* - update 1 paper.  
-*2018/11/14* - update 1 paper.  
-*2018/11/30* - update 5 papers.  
-*2018/12/07* - update 1 paper and fix typo.  
+*2018/october* - update 5 papers and performance table.  
+*2018/november* - update 9 papers.  
+*2018/december* - update 5 papers and fix typo.  
 
 
 ## paper list from 2014 to now(2018)
@@ -146,6 +141,8 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - **[RON]** RON: Reverse Connection with Objectness Prior Networks for Object Detection | Tao Kong, et al. | **[CVPR' 17]** |[`[pdf]`](https://arxiv.org/pdf/1707.01691.pdf) [`[official code - caffe]`](https://github.com/taokong/RON) [`[unofficial code - tensorflow]`](https://github.com/HiKapok/RON_Tensorflow)
 
+- **[RSA]** Recurrent Scale Approximation for Object Detection in CNN | Yu Liu, et al. |  | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1707.09531.pdf) [`[official code - caffe]`](https://github.com/sciencefans/RSA-for-object-detection)
+
 - **[DCN]** Deformable Convolutional Networks | Jifeng Dai, et al. | **[ICCV' 17]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf) [`[official code - mxnet]`](https://github.com/msracver/Deformable-ConvNets) [`[unofficial code - tensorflow]`](https://github.com/Zardinality/TF_Deformable_Net) [`[unofficial code - pytorch]`](https://github.com/oeway/pytorch-deform-conv)
 
 - **[DeNet]** DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling | Lachlan Tychsen-Smith, Lars Petersson | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1703.10295.pdf) [`[official code - theano]`](https://github.com/lachlants/denet)
@@ -184,6 +181,10 @@ A paper list of object detection using deep learning. I worte with reference to 
 
 - Finding Tiny Faces in the Wild with Generative Adversarial Network | Yancheng Bai, et al. | **[CVPR' 18]** |[`[pdf]`](https://ivul.kaust.edu.sa/Documents/Publications/2018/Finding%20Tiny%20Faces%20in%20the%20Wild%20with%20Generative%20Adversarial%20Network.pdf)
 
+- **[MLKP]** Multi-scale Location-aware Kernel Representation for Object Detection | Hao Wang, et al. | **[CVPR' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.00428.pdf) [`[official code - caffe]`](https://github.com/Hwang64/MLKP)
+
+- Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation | Naoto Inoue, et al. | **[CVPR' 18]** |[`[pdf]`](https://arxiv.org/pdf/1803.11365.pdf) [`[official code - chainer]`](https://github.com/naoto0804/cross-domain-detection)
+
 - **[STDnet]** STDnet: A ConvNet for Small Target Detection | Brais Bosquet, et al. | **[BMVC' 18]** |[`[pdf]`](http://bmvc2018.org/contents/papers/0897.pdf)
 
 - **[RFBNet]** Receptive Field Block Net for Accurate and Fast Object Detection | Songtao Liu, et al. | **[ECCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1711.07767.pdf) [`[official code - pytorch]`](https://github.com/ruinmessi/RFBNet)
@@ -199,7 +200,6 @@ A paper list of object detection using deep learning. I worte with reference to 
 - **[MetaAnchor]** MetaAnchor: Learning to Detect Objects with Customized Anchors | Tong Yang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors.pdf) 
 
 - **[SNIPER]** SNIPER: Efficient Multi-Scale Training | Bharat Singh, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/8143-sniper-efficient-multi-scale-training.pdf) 
-
 
 ## 2019
 - **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Qijie Zhao, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
