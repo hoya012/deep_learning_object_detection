@@ -61,7 +61,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 |    CornerNet    |     -    |          -          |      42.1     |    ECCV'18   |
 |    Pelee    |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
 |    HKRM    |     78.8 (07+12)    |          -          |      37.8     |    NIPS'18   |
-|    M2Det    |     78.8 (07+12)    |          -          |      44.2     |    AAAI'19   |
+|    M2Det    |     -    |          -          |      44.2     |    AAAI'19   |
 
 
 - [2014](#2014)
