@@ -8,7 +8,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/9/26* - update codes of papers. (official and unofficial)  
 *2018/october* - update 5 papers and performance table.  
 *2018/november* - update 9 papers.  
-*2018/december* - update 5 papers and fix typo.  
+*2018/december* - update 5 papers and and performance table.  
 
 
 ## paper list from 2014 to now(2018)
