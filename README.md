@@ -1,5 +1,5 @@
 # deep learning object detection
-A paper list of object detection using deep learning. I worte with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf)  
+A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
 *Last updated: 2018/12/31*
 
@@ -14,7 +14,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 ## paper list from 2014 to now(2018)
 
 <p align="center">
-  <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of anomaly detection.">
+  <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
 </p>
 
 ## performance table
@@ -22,11 +22,8 @@ A paper list of object detection using deep learning. I worte with reference to 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
 |     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
-|   OverFeat   |           -         |          -          |      -     |    ICLR'14   |
-|   MultiBox   |         29.0        |          -          |      -     |    CVPR'14   |
 |    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
 |    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
-| AttentionNet |           -         |          -          |      -     |    ICCV'15   |
 |  Fast R-CNN  |     70.0 (07+12)    |     68.4 (07++12)   |      -     |    ICCV'15   |
 | Faster R-CNN |     73.2 (07+12)    |     70.4 (07++12)   |      -     |    NIPS'15   |
 |    YOLO v1   |     66.4 (07+12)    |     57.9 (07++12)   |      -     |    CVPR'16   |
@@ -39,9 +36,7 @@ A paper list of object detection using deep learning. I worte with reference to 
 |      SSD     |     76.8 (07+12)    |    74.9 (07++12)    |      -     |    ECCV'16   |
 |    GBDNet    |     77.2 (07+12)    |          -          |    27.0    |    ECCV'16   |
 |      CPF     |     76.4 (07+12)    |    72.6 (07++12)    |      -     |    ECCV'16   |
-|    MS-CNN    |           -         |          -          |      -     |    ECCV'16   |
 |     R-FCN    |     79.5 (07+12)    |    77.6 (07++12)    |    29.9    |    NIPS'16   |
-|    PVANET    |          -          |          -          |      -     |   NIPSW'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
 |      NoC     |     71.6 (07+12)    |    68.8 (07+12)     |    27.2    |   TPAMI'16   |
 |     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   arXiv'17   |
@@ -49,19 +44,23 @@ A paper list of object detection using deep learning. I worte with reference to 
 |      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
 |    YOLO v2   |     78.6 (07+12)    |    73.4 (07++12)    |      -     |    CVPR'17   |
 |      RON     |     77.6 (07+12)    |    75.4 (07++12)    |      -     |    CVPR'17   |
-|      DCN     |          -          |          -          |      -     |    ICCV'17   |
 |     DeNet    |     77.1 (07+12)    |    73.9 (07++12)    |    33.8    |    ICCV'17   |
 |   CoupleNet  |     82.7 (07+12)    |    80.4 (07++12)    |    34.4    |    ICCV'17   |
 |   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
-|  Mask R-CNN  |          -          |          -          |      -     |    ICCV'17   |
 |     DSOD     |     77.7 (07+12)    |    76.3 (07++12)    |      -     |    ICCV'17   |
 |      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
-|    YOLO v3   |          -          |          -          |    33.0    |   Arxiv'18   |
+|    YOLO v3   |          -          |          -          |    33.0    |   arXiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
-|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    **41.8**    |    CVPR'18   |
-|    MegDet    |          -          |          -          |      -     |    CVPR'18   |
+|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    41.8    |    CVPR'18   |
+|     Relation-Network     |     -    |          -          |      32.5     |    CVPR'18   |
+|     Cascade R-CNN     |     -    |          -          |      42.8     |    CVPR'18   |
+|     MLKP     |     80.6 (07+12)    |          77.2 (07++12)          |      28.6     |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
+|    CornerNet    |     -    |          -          |      42.1     |    ECCV'18   |
+|    Pelee    |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
+|    HKRM    |     78.8 (07+12)    |          -          |      37.8     |    NIPS'18   |
+|    M2Det    |     78.8 (07+12)    |          -          |      **44.2**     |    AAAI'19   |
 
 
 - [2014](#2014)
