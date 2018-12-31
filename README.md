@@ -8,7 +8,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/9/26* - update codes of papers. (official and unofficial)  
 *2018/october* - update 5 papers and performance table.  
 *2018/november* - update 9 papers.  
-*2018/december* - update 5 papers and and performance table and add new diagram(**2019 version!!**).  
+*2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
 
 
 ## paper list from 2014 to now(2019)
@@ -192,6 +192,8 @@ A paper list of object detection using deep learning. I worte this page with ref
 
 - **[CornerNet]** CornerNet: Detecting Objects as Paired Keypoints | Hei Law, et al. | **[ECCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1808.01244.pdf) [`[official code - pytorch]`](https://github.com/princeton-vl/CornerNet)
 
+- **[ShapeShifter]** ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Shang-Tse Chen, et al. | **[ECML-PKDD' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.05810.pdf) [`[official code - tensorflow]`](https://github.com/shangtse/robust-physical-attack)
+
 - **[Pelee]** Pelee: A Real-Time Object Detection System on Mobile Devices | Jun Wang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) [`[official code - caffe]`](https://github.com/Robert-JunWang/Pelee)
 
 - **[HKRM]** Hybrid Knowledge Routed Modules for Large-scale Object Detection | ChenHan Jiang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection.pdf) 
@@ -202,6 +204,8 @@ A paper list of object detection using deep learning. I worte this page with ref
 
 ## 2019
 - **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Qijie Zhao, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
+
+- **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | Yang Zhang, et al. | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
 
 ## Contact & Feedback
