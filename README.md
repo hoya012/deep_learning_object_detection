@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2018/12/31*
+*Last updated: 2019/01/02*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -49,19 +49,20 @@ A paper list of object detection using deep learning. I worte this page with ref
 |   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
 |     DSOD     |     77.7 (07+12)    |    76.3 (07++12)    |      -     |    ICCV'17   |
 |      SMN     |         70.0        |          -          |      -     |    ICCV'17   |
+|Light-Head R-CNN|        -          |          -          |    41.5    |   arXiv'17   |
 |    YOLO v3   |          -          |          -          |    33.0    |   arXiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
 |   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    41.8    |    CVPR'18   |
-|     SNIP     |     -    |          -          |      **45.7**     |    CVPR'18   |
-|     Relation-Network     |     -    |          -          |      32.5     |    CVPR'18   |
-|     Cascade R-CNN     |     -    |          -          |      42.8     |    CVPR'18   |
-|     MLKP     |     80.6 (07+12)    |          77.2 (07++12)          |      28.6     |    CVPR'18   |
+|     SNIP     |          -          |          -          |  **45.7**  |    CVPR'18   |
+|Relation-Network|        -          |          -          |     32.5   |    CVPR'18   |
+| Cascade R-CNN|          -          |          -          |     42.8   |    CVPR'18   |
+|     MLKP     |     80.6 (07+12)    |    77.2 (07++12)    |     28.6   |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
-|    CornerNet    |     -    |          -          |      42.1     |    ECCV'18   |
-|    Pelee    |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
-|    HKRM    |     78.8 (07+12)    |          -          |      37.8     |    NIPS'18   |
-|    M2Det    |     -    |          -          |      44.2     |    AAAI'19   |
+|    CornerNet |          -          |          -          |     42.1   |    ECCV'18   |
+|    Pelee     |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
+|     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
+|     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
 
 
 - [2014](#2014)
@@ -156,6 +157,8 @@ A paper list of object detection using deep learning. I worte this page with ref
 - **[DSOD]** DSOD: Learning Deeply Supervised Object Detectors from Scratch | Zhiqiang Shen, et al. | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1708.01241.pdf) [`[official code - caffe]`](https://github.com/szq0214/DSOD) [`[unofficial code - pytorch]`](https://github.com/uoip/SSD-variants) 
 
 - **[SMN]** Spatial Memory for Context Reasoning in Object Detection | Xinlei Chen, Abhinav Gupta | **[ICCV' 17]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Spatial_Memory_for_ICCV_2017_paper.pdf)
+
+- **[Light-Head R-CNN]** Light-Head R-CNN: In Defense of Two-Stage Object Detector | Zeming Li, et al. | **[arXiv' 17]** |[`[pdf]`](https://arxiv.org/pdf/1711.07264.pdf) [`[official code - tensorflow]`](https://github.com/zengarden/light_head_rcnn)
 
 ## 2018
 
