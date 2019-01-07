@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/01/02*
+*Last updated: 2019/01/07*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -9,9 +9,12 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/october* - update 5 papers and performance table.  
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
+*2019/january* - update 2 papers and and add some informations.  
 
 
 ## paper list from 2014 to now(2019)
+The part highlighted with red characters means papers that i think "must-read".
+However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
 
 <p align="center">
   <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
@@ -19,13 +22,16 @@ A paper list of object detection using deep learning. I worte this page with ref
 
 ## performance table
 
-|   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP) | Published In |
+FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. The solution is to measure the performance of all models on hardware with equivalent specifications, but it is very difficult and time consuming. 
+So i
+
+|   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP@IoU=0.5:0.95) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
 |     R-CNN    |         58.5        |          -          |      -     |    CVPR'14   |
 |    SPP-Net   |         59.2        |          -          |      -     |    ECCV'14   |
 |    MR-CNN    |     78.2 (07+12)    |     73.9 (07+12)    |      -     |    ICCV'15   |
-|  Fast R-CNN  |     70.0 (07+12)    |     68.4 (07++12)   |      -     |    ICCV'15   |
-| Faster R-CNN |     73.2 (07+12)    |     70.4 (07++12)   |      -     |    NIPS'15   |
+|  Fast R-CNN  |     70.0 (07+12)    |     68.4 (07++12)   |    19.7    |    ICCV'15   |
+| Faster R-CNN |     73.2 (07+12)    |     70.4 (07++12)   |    21.9    |    NIPS'15   |
 |    YOLO v1   |     66.4 (07+12)    |     57.9 (07++12)   |      -     |    CVPR'16   |
 |     G-CNN    |         66.8        |     66.4 (07+12)    |      -     |    CVPR'16   |
 |     AZNet    |         70.4        |          -          |    22.3    |    CVPR'16   |
@@ -33,17 +39,17 @@ A paper list of object detection using deep learning. I worte this page with ref
 |   HyperNet   |     76.3 (07+12)    |    71.4 (07++12)    |      -     |    CVPR'16   |
 |     OHEM     |     78.9 (07+12)    |    76.3 (07++12)    |    22.4    |    CVPR'16   |
 |      MPN     |           -         |          -          |    33.2    |    BMVC'16   |
-|      SSD     |     76.8 (07+12)    |    74.9 (07++12)    |      -     |    ECCV'16   |
+|      SSD     |     76.8 (07+12)    |    74.9 (07++12)    |    31.2    |    ECCV'16   |
 |    GBDNet    |     77.2 (07+12)    |          -          |    27.0    |    ECCV'16   |
 |      CPF     |     76.4 (07+12)    |    72.6 (07++12)    |      -     |    ECCV'16   |
 |     R-FCN    |     79.5 (07+12)    |    77.6 (07++12)    |    29.9    |    NIPS'16   |
 |  DeepID-Net  |         69.0        |          -          |      -     |    PAMI'16   |
 |      NoC     |     71.6 (07+12)    |    68.8 (07+12)     |    27.2    |   TPAMI'16   |
-|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |      -     |   arXiv'17   |
+|     DSSD     |     81.5 (07+12)    |    80.0 (07++12)    |    33.2    |   arXiv'17   |
 |      TDM     |          -          |          -          |    37.3    |    CVPR'17   |
 |      FPN     |          -          |          -          |    36.2    |    CVPR'17   |
 |    YOLO v2   |     78.6 (07+12)    |    73.4 (07++12)    |      -     |    CVPR'17   |
-|      RON     |     77.6 (07+12)    |    75.4 (07++12)    |      -     |    CVPR'17   |
+|      RON     |     77.6 (07+12)    |    75.4 (07++12)    |    27.4    |    CVPR'17   |
 |     DeNet    |     77.1 (07+12)    |    73.9 (07++12)    |    33.8    |    ICCV'17   |
 |   CoupleNet  |     82.7 (07+12)    |    80.4 (07++12)    |    34.4    |    ICCV'17   |
 |   RetinaNet  |          -          |          -          |    39.1    |    ICCV'17   |
@@ -58,8 +64,9 @@ A paper list of object detection using deep learning. I worte this page with ref
 |Relation-Network|        -          |          -          |     32.5   |    CVPR'18   |
 | Cascade R-CNN|          -          |          -          |     42.8   |    CVPR'18   |
 |     MLKP     |     80.6 (07+12)    |    77.2 (07++12)    |     28.6   |    CVPR'18   |
+|  Fitness-NMS |          -          |          -          |     41.8   |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
-|    CornerNet |          -          |          -          |     42.1   |    ECCV'18   |
+|   CornerNet  |          -          |          -          |     42.1   |    ECCV'18   |
 |    Pelee     |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
@@ -187,6 +194,8 @@ A paper list of object detection using deep learning. I worte this page with ref
 - **[MLKP]** Multi-scale Location-aware Kernel Representation for Object Detection | Hao Wang, et al. | **[CVPR' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.00428.pdf) [`[official code - caffe]`](https://github.com/Hwang64/MLKP)
 
 - Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation | Naoto Inoue, et al. | **[CVPR' 18]** |[`[pdf]`](https://arxiv.org/pdf/1803.11365.pdf) [`[official code - chainer]`](https://github.com/naoto0804/cross-domain-detection)
+
+- **[Fitness NMS]** Improving Object Localization with Fitness NMS and Bounded IoU Loss | Lachlan Tychsen-Smith, Lars Petersson. | **[CVPR' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0794.pdf) 
 
 - **[STDnet]** STDnet: A ConvNet for Small Target Detection | Brais Bosquet, et al. | **[BMVC' 18]** |[`[pdf]`](http://bmvc2018.org/contents/papers/0897.pdf)
 
