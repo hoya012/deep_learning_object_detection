@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/01/07*
+*Last updated: 2019/01/14*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -9,7 +9,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/october* - update 5 papers and performance table.  
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
-*2019/january* - update 2 papers and and add some informations.  
+*2019/january* - update 3 papers and and add some informations.  
 
 
 ## paper list from 2014 to now(2019)
@@ -59,7 +59,7 @@ So i
 |    YOLO v3   |          -          |          -          |    33.0    |   arXiv'18   |
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
-|   RefineDet  |   **83.8 (07+12)**  |  **83.5 (07++12)**  |    41.8    |    CVPR'18   |
+|   RefineDet  |     83.8 (07+12)    |    83.5 (07++12)    |    41.8    |    CVPR'18   |
 |     SNIP     |          -          |          -          |  **45.7**  |    CVPR'18   |
 |Relation-Network|        -          |          -          |     32.5   |    CVPR'18   |
 | Cascade R-CNN|          -          |          -          |     42.8   |    CVPR'18   |
@@ -67,6 +67,7 @@ So i
 |  Fitness-NMS |          -          |          -          |     41.8   |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
 |   CornerNet  |          -          |          -          |     42.1   |    ECCV'18   |
+|    PFPNet    |   **84.1 (07+12)**  |  **83.7 (07++12)**  |     39.4   |    ECCV'18   |
 |    Pelee     |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
@@ -204,6 +205,8 @@ So i
 - Zero-Annotation Object Detection with Web Knowledge Transfer | Qingyi Tao, et al. | **[ECCV' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Qingyi_Tao_Zero-Annotation_Object_Detection_ECCV_2018_paper.pdf)
 
 - **[CornerNet]** CornerNet: Detecting Objects as Paired Keypoints | Hei Law, et al. | **[ECCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1808.01244.pdf) [`[official code - pytorch]`](https://github.com/princeton-vl/CornerNet)
+
+- **[PFPNet]** Parallel Feature Pyramid Network for Object Detection | Seung-Wook Kim, et al. | **[ECCV' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Seung-Wook_Kim_Parallel_Feature_Pyramid_ECCV_2018_paper.pdf)
 
 - **[ShapeShifter]** ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Shang-Tse Chen, et al. | **[ECML-PKDD' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.05810.pdf) [`[official code - tensorflow]`](https://github.com/shangtse/robust-physical-attack)
 
