@@ -9,7 +9,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/october* - update 5 papers and performance table.  
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
-*2019/january* - update 3 papers and and add some informations.  
+*2019/january* - update 4 papers and and add some informations.  
 
 
 ## paper list from 2014 to now(2019)
@@ -167,6 +167,8 @@ So i
 - **[SMN]** Spatial Memory for Context Reasoning in Object Detection | Xinlei Chen, Abhinav Gupta | **[ICCV' 17]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Spatial_Memory_for_ICCV_2017_paper.pdf)
 
 - **[Light-Head R-CNN]** Light-Head R-CNN: In Defense of Two-Stage Object Detector | Zeming Li, et al. | **[arXiv' 17]** |[`[pdf]`](https://arxiv.org/pdf/1711.07264.pdf) [`[official code - tensorflow]`](https://github.com/zengarden/light_head_rcnn)
+
+- **[Soft-NMS]** Improving Object Detection With One Line of Code | Navaneeth Bodla, et al. | **[ICCV' 17]** |[`[pdf]`](https://arxiv.org/pdf/1704.04503.pdf) [`[official code - caffe]`](https://github.com/bharatsingh430/soft-nms)
 
 ## 2018
 
