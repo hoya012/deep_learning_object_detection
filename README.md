@@ -254,4 +254,4 @@ If you have any suggestions about papers, feel free to mail me :)
 
 - [e-mail](mailto:lee.hoseong@sualab.com)
 - [blog](https://hoya012.github.io/)
-- [pull request](https://github.com/hoya012/awesome-anomaly-detection/pulls)
+- [pull request](https://github.com/hoya012/deep_learning_object_detection/pulls)
