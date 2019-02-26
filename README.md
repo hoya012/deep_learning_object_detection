@@ -15,7 +15,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 ## Table of Contents
 - [Paper list from 2014 to now(2019)](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#paper-list-from-2014-to-now2019)
 - [Performance table](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#performance-table)
-- papers
+- Papers
   - [2014](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2014)
   - [2015](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2015)
   - [2016](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2016)
