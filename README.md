@@ -41,7 +41,6 @@ However, it is **my personal opinion** and other papers are important too, so I 
 ## Performance table
 
 FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. The solution is to measure the performance of all models on hardware with equivalent specifications, but it is very difficult and time consuming. 
-So i
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP@IoU=0.5:0.95) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
