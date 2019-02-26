@@ -12,6 +12,8 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2019/january* - update 4 papers and and add commonly used datasets.  
 *2019/february* - update 2 papers.
 
+##
+
 ## Table of Contents
 - [Paper list from 2014 to now(2019)](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#paper-list-from-2014-to-now2019)
 - [Performance table](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#performance-table)
@@ -24,6 +26,8 @@ A paper list of object detection using deep learning. I worte this page with ref
   - [2019](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2019)
 - [Dataset Papers](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#dataset-papers)
 
+##
+
 ## Paper list from 2014 to now(2019)
 The part highlighted with red characters means papers that i think "must-read".
 However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
@@ -31,6 +35,8 @@ However, it is **my personal opinion** and other papers are important too, so I 
 <p align="center">
   <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
 </p>
+
+##
 
 ## Performance table
 
@@ -85,13 +91,7 @@ So i
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
 |     R-DAD    |     81.2 (07++12)   |    82.0 (07++12)    |     43.1   |    AAAI'19   |
 
-
-- [2014](#2014)
-- [2015](#2015)
-- [2016](#2016)
-- [2017](#2017)
-- [2018](#2018)
-- [2019](#2019)
+##
 
 ## 2014
 
@@ -241,7 +241,7 @@ So i
 
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | Yang Zhang, et al. | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
-
+##
 
 ## Dataset Papers
 Statistics of commonly used object detection datasets. The Figure came from [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf).
@@ -263,6 +263,7 @@ The papers related to datasets used mainly in Object Detection are as follows.
 
 - **[Open Images]** The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale | A Kuznetsova, et al. | **[arXiv' 18]** | [`[pdf]`](https://arxiv.org/pdf/1811.00982v1.pdf) | [`[link]`](https://storage.googleapis.com/openimages/web/index.html)
 
+##
 
 ## Contact & Feedback
 
