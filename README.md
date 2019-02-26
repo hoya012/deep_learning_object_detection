@@ -12,7 +12,19 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2019/january* - update 4 papers and and add commonly used datasets.  
 *2019/february* - update 2 papers.
 
-## paper list from 2014 to now(2019)
+## Table of Contents
+- [Paper list from 2014 to now(2019)](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#paper-list-from-2014-to-now2019)
+- [Performance table](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#performance-table)
+- papers
+  - [2014](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2014)
+  - [2015](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2015)
+  - [2016](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2016)
+  - [2017](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2017)
+  - [2018](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2018)
+  - [2019](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2019)
+- [Dataset Papers](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#dataset-papers)
+
+## Paper list from 2014 to now(2019)
 The part highlighted with red characters means papers that i think "must-read".
 However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
 
@@ -20,7 +32,7 @@ However, it is **my personal opinion** and other papers are important too, so I 
   <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
 </p>
 
-## performance table
+## Performance table
 
 FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. The solution is to measure the performance of all models on hardware with equivalent specifications, but it is very difficult and time consuming. 
 So i
@@ -231,7 +243,7 @@ So i
 
 
 
-## Dataset Paper
+## Dataset Papers
 Statistics of commonly used object detection datasets. The Figure came from [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf).
 <p align="center">
   <img width="700" src="/assets/deep_learning_object_detection_dataset.PNG" "Commonly used object detection datasets.">
