@@ -10,7 +10,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
 *2019/january* - update 4 papers and and add commonly used datasets.  
-*2019/february* - update 1 paper.
+*2019/february* - update 2 papers.
 
 ## paper list from 2014 to now(2019)
 The part highlighted with red characters means papers that i think "must-read".
@@ -71,6 +71,7 @@ So i
 |    Pelee     |     70.9 (07+12)    |          -          |      -     |    NIPS'18   |
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
+|     R-DAD    |     81.2 (07++12)   |    82.0 (07++12)    |     43.1   |    AAAI'19   |
 
 
 - [2014](#2014)
@@ -223,6 +224,8 @@ So i
 
 ## 2019
 - **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Qijie Zhao, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
+
+- **[R-DAD]** Object Detection based on Region Decomposition and Assembly | Seung-Hwan Bae | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.08225v1.pdf) 
 
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | Yang Zhang, et al. | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
