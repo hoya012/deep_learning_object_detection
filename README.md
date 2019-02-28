@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/02/26*
+*Last updated: 2019/02/28*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -10,7 +10,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
 *2019/january* - update 4 papers and and add commonly used datasets.  
-*2019/february* - update 2 papers.
+*2019/february* - update 3 papers.
 
 ##
 
@@ -222,6 +222,8 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - **[CornerNet]** CornerNet: Detecting Objects as Paired Keypoints | Hei Law, et al. | **[ECCV' 18]** |[`[pdf]`](https://arxiv.org/pdf/1808.01244.pdf) [`[official code - pytorch]`](https://github.com/princeton-vl/CornerNet)
 
 - **[PFPNet]** Parallel Feature Pyramid Network for Object Detection | Seung-Wook Kim, et al. | **[ECCV' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Seung-Wook_Kim_Parallel_Feature_Pyramid_ECCV_2018_paper.pdf)
+
+- **[Softer-NMS]** Softer-NMS: Rethinking Bounding Box Regression for Accurate Object Detection | Yihui He, et al. | **[arXiv' 18]** |[`[pdf]`](https://arxiv.org/pdf/1809.08545.pdf)
 
 - **[ShapeShifter]** ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Shang-Tse Chen, et al. | **[ECML-PKDD' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.05810.pdf) [`[official code - tensorflow]`](https://github.com/shangtse/robust-physical-attack)
 
