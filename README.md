@@ -244,6 +244,8 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | Yang Zhang, et al. | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
+- **[FSAF]** Feature Selective Anchor-Free Module for Single-Shot Object Detection | Chenchen Zhu, et al. | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/abs/1903.00621)
+
 ##
 
 ## Dataset Papers
