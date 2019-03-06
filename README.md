@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I worte this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/01/26*
+*Last updated: 2019/03/05*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -10,9 +10,27 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/november* - update 9 papers.  
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
 *2019/january* - update 4 papers and and add commonly used datasets.  
+*2019/february* - update 3 papers.
+*2019/march* - update figure.
 
 
-## paper list from 2014 to now(2019)
+##
+
+## Table of Contents
+- [Paper list from 2014 to now(2019)](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#paper-list-from-2014-to-now2019)
+- [Performance table](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#performance-table)
+- Papers
+  - [2014](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2014)
+  - [2015](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2015)
+  - [2016](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2016)
+  - [2017](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2017)
+  - [2018](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2018)
+  - [2019](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2019)
+- [Dataset Papers](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#dataset-papers)
+
+##
+
+## Paper list from 2014 to now(2019)
 The part highlighted with red characters means papers that i think "must-read".
 However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
 
@@ -20,10 +38,11 @@ However, it is **my personal opinion** and other papers are important too, so I 
   <img width="1000" src="/assets/deep_learning_object_detection_history.PNG" "Example of object detection.">
 </p>
 
-## performance table
+##
+
+## Performance table
 
 FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. The solution is to measure the performance of all models on hardware with equivalent specifications, but it is very difficult and time consuming. 
-So i
 
 |   Detector   | VOC07 (mAP@IoU=0.5) | VOC12 (mAP@IoU=0.5) | COCO (mAP@IoU=0.5:0.95) | Published In |
 |:------------:|:-------------------:|:-------------------:|:----------:|:------------:| 
@@ -68,17 +87,12 @@ So i
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
 |   CornerNet  |          -          |          -          |     42.1   |    ECCV'18   |
 |    PFPNet    |   **84.1 (07+12)**  |  **83.7 (07++12)**  |     39.4   |    ECCV'18   |
-|    Pelee     |     76.4 (07+12)    |          -          |      -     |    NIPS'18   |
+|    Pelee     |     70.9 (07+12)    |          -          |      -     |    NIPS'18   |
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
+|     R-DAD    |     81.2 (07++12)   |    82.0 (07++12)    |     43.1   |    AAAI'19   |
 
-
-- [2014](#2014)
-- [2015](#2015)
-- [2016](#2016)
-- [2017](#2017)
-- [2018](#2018)
-- [2019](#2019)
+##
 
 ## 2014
 
@@ -91,6 +105,7 @@ So i
 - **[SPP-Net]** Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition | Kaiming He, et al. | **[ECCV' 14]** |[`[pdf]`](https://arxiv.org/pdf/1406.4729.pdf) [`[official code - caffe]`](https://github.com/ShaoqingRen/SPP_net) [`[unofficial code - keras]`](https://github.com/yhenon/keras-spp) [`[unofficial code - tensorflow]`](https://github.com/peace195/sppnet)
 
 ## 2015
+- Improving Object Detection with Deep Convolutional Networks via Bayesian Optimization and Structured Prediction | Yuting Zhang, et. al. | **[CVPR' 15]** |[`[pdf]`](https://arxiv.org/pdf/1504.03293.pdf) [`[official code - matlab]`](https://github.com/YutingZhang/fgs-obj)
 
 - **[MR-CNN]** Object detection via a multi-region & semantic segmentation-aware CNN model | Spyros Gidaris, Nikos Komodakis | **[ICCV' 15]** |[`[pdf]`](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Gidaris_Object_Detection_via_ICCV_2015_paper.pdf) [`[official code - caffe]`](https://github.com/gidariss/mrcnn-object-detection)
 
@@ -210,6 +225,8 @@ So i
 
 - **[PFPNet]** Parallel Feature Pyramid Network for Object Detection | Seung-Wook Kim, et al. | **[ECCV' 18]** |[`[pdf]`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Seung-Wook_Kim_Parallel_Feature_Pyramid_ECCV_2018_paper.pdf)
 
+- **[Softer-NMS]** Softer-NMS: Rethinking Bounding Box Regression for Accurate Object Detection | Yihui He, et al. | **[arXiv' 18]** |[`[pdf]`](https://arxiv.org/pdf/1809.08545.pdf)
+
 - **[ShapeShifter]** ShapeShifter: Robust Physical Adversarial Attack on Faster R-CNN Object Detector | Shang-Tse Chen, et al. | **[ECML-PKDD' 18]** |[`[pdf]`](https://arxiv.org/pdf/1804.05810.pdf) [`[official code - tensorflow]`](https://github.com/shangtse/robust-physical-attack)
 
 - **[Pelee]** Pelee: A Real-Time Object Detection System on Mobile Devices | Jun Wang, et al. | **[NIPS' 18]** |[`[pdf]`](http://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf) [`[official code - caffe]`](https://github.com/Robert-JunWang/Pelee)
@@ -223,11 +240,13 @@ So i
 ## 2019
 - **[M2Det]** M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network | Qijie Zhao, et al. | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.04533.pdf) 
 
+- **[R-DAD]** Object Detection based on Region Decomposition and Assembly | Seung-Hwan Bae | **[AAAI' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.08225v1.pdf) 
+
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | Yang Zhang, et al. | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
+##
 
-
-## Dataset Paper
+## Dataset Papers
 Statistics of commonly used object detection datasets. The Figure came from [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf).
 <p align="center">
   <img width="700" src="/assets/deep_learning_object_detection_dataset.PNG" "Commonly used object detection datasets.">
@@ -247,6 +266,7 @@ The papers related to datasets used mainly in Object Detection are as follows.
 
 - **[Open Images]** The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale | A Kuznetsova, et al. | **[arXiv' 18]** | [`[pdf]`](https://arxiv.org/pdf/1811.00982v1.pdf) | [`[link]`](https://storage.googleapis.com/openimages/web/index.html)
 
+##
 
 ## Contact & Feedback
 
@@ -254,4 +274,4 @@ If you have any suggestions about papers, feel free to mail me :)
 
 - [e-mail](mailto:lee.hoseong@sualab.com)
 - [blog](https://hoya012.github.io/)
-- [pull request](https://github.com/hoya012/awesome-anomaly-detection/pulls)
+- [pull request](https://github.com/hoya012/deep_learning_object_detection/pulls)
