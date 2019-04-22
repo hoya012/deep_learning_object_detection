@@ -245,6 +245,25 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
+- Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1902.09630.pdf) 
+
+- Automatic adaptation of object detectors to new domains using self-training | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.07305.pdf) 
+
+- Libra R-CNN: Balanced Learning for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.02701.pdf) 
+
+- Feature Selective Anchor-Free Module for Single-Shot Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.00621.pdf) 
+
+- **[ExtremeNet]** Bottom-up Object Detection by Grouping Extreme and Center Points | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.08043.pdf) | [`[official code - pytorch]`](https://github.com/xingyizhou/ExtremeNet)
+
+- **[C-MIL]** C-MIL: Continuation Multiple Instance Learning for Weakly Supervised Object Detection
+ | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.05647.pdf) | [`[official code - torch]`](https://github.com/AnonymousIDs/C-MIL)
+
+- **[ScratchDet]** ScratchDet: Training Single-Shot Object Detectors from Scratch | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1810.08425.pdf) 
+
+- Learning RoI Transformer for Oriented Object Detection in Aerial Images | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.00155.pdf) 
+
+
+
 ##
 
 ## Dataset Papers
