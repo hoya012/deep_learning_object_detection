@@ -286,6 +286,29 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Dissimilarity Coefficient based Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.10016) 
 
+- Adapting Object Detectors via Selective Cross-Domain Alignment | **[CVPR' 19]**
+
+- Fully Quantized Network for Object Detection | **[CVPR' 19]**
+
+- Distilling Object Detectors with Fine-grained Feature Imitation | **[CVPR' 19]**
+
+- Multi-task Self-Supervised Object Detection via Recycling of Bounding Box Annotations | **[CVPR' 19]**
+
+- **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]**
+
+- Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation | **[CVPR' 19]**
+
+- Assisted Excitation of Activations: A Learning Technique to Improve Object Detectors | **[CVPR' 19]**
+
+- Spatial-aware Graph Relation Network for Large-scale Object Detection | **[CVPR' 19]**
+
+- **[MaxpoolNMS]** MaxpoolNMS: Getting Rid of NMS Bottlenecks in Two-Stage Object Detectors | **[CVPR' 19]**
+
+- You reap what you sow: Generating High Precision Object Proposals for Weakly-supervised Object Detection | **[CVPR' 19]**
+
+- Object detection with location-aware deformable convolution and backward attention filtering | **[CVPR' 19]**
+
+- Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection | **[CVPR' 19]**
 
 ##
 
