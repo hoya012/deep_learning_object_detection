@@ -245,11 +245,11 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[CAMOU]** CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild | **[ICLR' 19]** |[`[pdf]`](https://openreview.net/pdf?id=SJgEl3A5tm) 
 
-- Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1902.09630.pdf) 
+- **[GIoU]** Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1902.09630.pdf) 
 
 - Automatic adaptation of object detectors to new domains using self-training | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.07305.pdf) 
 
-- Libra R-CNN: Balanced Learning for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.02701.pdf) 
+- **[Libra R-CNN]** Libra R-CNN: Balanced Learning for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.02701.pdf) 
 
 - Feature Selective Anchor-Free Module for Single-Shot Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.00621.pdf) 
 
@@ -260,8 +260,31 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[ScratchDet]** ScratchDet: Training Single-Shot Object Detectors from Scratch | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1810.08425.pdf) 
 
-- Learning RoI Transformer for Oriented Object Detection in Aerial Images | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.00155.pdf) 
+- Bounding Box Regression with Uncertainty for Accurate Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1809.08545.pdf) | [`[official code - caffe2]`](https://github.com/yihui-he/KL-Loss)
 
+- Activity Driven Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.01665.pdf) | [`[official code - pytorch]`](https://github.com/zhenheny/ADWSOD) 
+
+- Towards Accurate One-Stage Object Detection with AP-Loss | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.06373.pdf) 
+
+- Strong-Weak Distribution Alignment for Adaptive Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.04798.pdf) | [`[official code - pytorch]`](https://github.com/VisionLearningGroup/DA_Detection) 
+
+- **[NAS-FPN]** NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.07392.pdf) 
+
+- **[Adaptive NMS]** Adaptive NMS: Refining Pedestrian Detection in a Crowd | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.03629.pdf) 
+
+- Point in, Box out: Beyond Counting Persons in Crowds | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.01333.pdf) 
+
+- Locating Objects Without Bounding Boxes | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1806.07564.pdf) 
+
+- Sampling Techniques for Large-Scale Object Detection from Sparsely Annotated Objects | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.10862.pdf) 
+
+- Towards Universal Object Detection by Domain Attention | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.04402.pdf) 
+
+- Exploring the Bounds of the Utility of Context for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1711.05471.pdf) 
+
+- What Object Should I Use? - Task Driven ObjeWhat Object Should I Use? - Task Driven Object Detectionct Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.03000.pdf) 
+
+- Dissimilarity Coefficient based Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.10016) 
 
 
 ##
