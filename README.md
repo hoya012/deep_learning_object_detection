@@ -11,7 +11,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 *2018/december* - update 8 papers and and performance table and add new diagram(**2019 version!!**).  
 *2019/january* - update 4 papers and and add commonly used datasets.  
 *2019/february* - update 3 papers.  
-*2019/march* - update figure and code links.
+*2019/march* - update figure and code links.  
 *2019/april* - remove author's names and update CVPR 2019 papers.
 
 
