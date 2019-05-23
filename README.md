@@ -290,7 +290,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Adapting Object Detectors via Selective Cross-Domain Alignment | **[CVPR' 19]**
 
-- Fully Quantized Network for Object Detection | **[CVPR' 19]**
+- Fully Quantized Network for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://yan-junjie.github.io/publication/dblp-confcvprlilqwfy-19/dblp-confcvprlilqwfy-19.pdf)
 
 - Distilling Object Detectors with Fine-grained Feature Imitation | **[CVPR' 19]**
 
@@ -298,19 +298,19 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]**
 
-- Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation | **[CVPR' 19]**
+- Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05980.pdf)
 
-- Assisted Excitation of Activations: A Learning Technique to Improve Object Detectors | **[CVPR' 19]**
+- Assisted Excitation of Activations: A Learning Technique to Improve Object Detectors | **[CVPR' 19]** |[`[pdf]`](https://pdfs.semanticscholar.org/ec96/b6ae95e1ebbe4f7c0252301ede26dfc79467.pdf)
 
 - Spatial-aware Graph Relation Network for Large-scale Object Detection | **[CVPR' 19]**
 
 - **[MaxpoolNMS]** MaxpoolNMS: Getting Rid of NMS Bottlenecks in Two-Stage Object Detectors | **[CVPR' 19]**
 
-- You reap what you sow: Generating High Precision Object Proposals for Weakly-supervised Object Detection | **[CVPR' 19]**
+- You reap what you sow: Generating High Precision Object Proposals for Weakly-supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://web.cs.ucdavis.edu/~yjlee/projects/cvpr2019-youreapwhatyousow.pdf)
 
 - Object detection with location-aware deformable convolution and backward attention filtering | **[CVPR' 19]**
 
-- Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection | **[CVPR' 19]**
+- Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05396.pdf)
 
 ##
 
