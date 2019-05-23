@@ -284,7 +284,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Exploring the Bounds of the Utility of Context for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1711.05471.pdf) 
 
-- What Object Should I Use? - Task Driven ObjeWhat Object Should I Use? - Task Driven Object Detectionct Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.03000.pdf) 
+- What Object Should I Use? - Task Driven Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.03000.pdf) 
 
 - Dissimilarity Coefficient based Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.10016) 
 
