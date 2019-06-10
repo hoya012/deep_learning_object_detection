@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/05/23*
+*Last updated: 2019/06/10*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -14,6 +14,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/march* - update figure and code links.  
 *2019/april* - remove author's names and update ICLR 2019 & CVPR 2019 papers.  
 *2019/may* - update CVPR 2019 papers.  
+*2019/june* - update CVPR 2019 papers and dataset paper.  
 
 
 ##
@@ -334,6 +335,8 @@ The papers related to datasets used mainly in Object Detection are as follows.
 - **[COCO]** Microsoft COCO: Common Objects in Context | **[ECCV' 14]** | [`[pdf]`](https://arxiv.org/pdf/1405.0312.pdf) | [`[link]`](http://cocodataset.org/)
 
 - **[Open Images]** The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale | **[arXiv' 18]** | [`[pdf]`](https://arxiv.org/pdf/1811.00982v1.pdf) | [`[link]`](https://storage.googleapis.com/openimages/web/index.html)
+
+- **[DOTA]** DOTA: A Large-scale Dataset for Object Detection in Aerial Images | **[CVPR' 18]** | [`[pdf]`](https://arxiv.org/pdf/1711.10398v3.pdf) | [`[link]`](https://captain-whu.github.io/DOTA/)
 
 ##
 
