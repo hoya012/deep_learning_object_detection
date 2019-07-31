@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/07/29*
+*Last updated: 2019/07/31*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -327,6 +327,9 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - Towards Adversarially Robust Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10310v1.pdf)
 
 - [Cap2Det] Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10164v1.pdf)
+
+- [Gaussian YOLOv3] Gaussian YOLOv3: An Accurate and Fast Object Detector using Localization Uncertainty for Autonomous Driving | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.04620.pdf)
+
 
 ##
 
