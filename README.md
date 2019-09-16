@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/07/31*
+*Last updated: 2019/09/16*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -16,6 +16,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/may* - update CVPR 2019 papers.  
 *2019/june* - update CVPR 2019 papers and dataset paper.  
 *2019/july* - update BMVC 2019 papers and some of ICCV 2019 papers.  
+*2019/september* - update NeurIPS 2019 papers.  
 
 
 
@@ -329,6 +330,18 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - **[Cap2Det]** Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10164v1.pdf)
 
 - **[Gaussian YOLOv3]** Gaussian YOLOv3: An Accurate and Fast Object Detector using Localization Uncertainty for Autonomous Driving | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.04620.pdf)
+
+- **[FreeAnchor]** FreeAnchor: Learning to Match Anchors for Visual Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02466v1.pdf)
+
+- Memory-oriented Decoder for Light Field Salient Object Detection | **[NeurIPS' 19]** |
+
+- One-Shot Object Detection with Co-Attention and Co-Excitation | **[NeurIPS' 19]** |
+
+- **[DetNAS]** DetNAS: Backbone Search for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.10979.pdf)
+
+- Consistency-based Semi-supervised Learning for Object detection | **[NeurIPS' 19]** |
+
+- **[NATS]** Efficient Neural Architecture Transformation Searchin Channel-Level for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02293.pdf)
 
 
 ##
