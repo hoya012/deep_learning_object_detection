@@ -93,12 +93,24 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 |  Fitness-NMS |          -          |          -          |     41.8   |    CVPR'18   |
 |    RFBNet    |     82.2 (07+12)    |          -          |      -     |    ECCV'18   |
 |   CornerNet  |          -          |          -          |     42.1   |    ECCV'18   |
-|    PFPNet    |   **84.1 (07+12)**  |  **83.7 (07++12)**  |     39.4   |    ECCV'18   |
+|    PFPNet    |     84.1 (07+12)    |    83.7 (07++12)    |     39.4   |    ECCV'18   |
 |    Pelee     |     70.9 (07+12)    |          -          |      -     |    NIPS'18   |
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
 |     R-DAD    |     81.2 (07++12)   |    82.0 (07++12)    |     43.1   |    AAAI'19   |
+| ScratchDet   |   84.1 (07++12)     |    83.6 (07++12)    |     39.1   |    CVPR'19   |
+| Libra R-CNN  |          -          |          -          |     43.0   |    CVPR'19   |
+| Reasoning-RCNN  | 82.5 (07++12)    |          -          |     43.2   |    CVPR'19   |
+|      FSAF    |          -          |          -          |     44.6   |    CVPR'19   |
 | AmoebaNet + NAS-FPN |     -        |          -          |     47.0   |    CVPR'19   |
+| Cascade-RetinaNet |       -        |           -         |     41.1   |    CVPR'19   |
+|   TridentNet |          -          |          -          |     48.4   |    ICCV'19   |
+|      DAFS    |   **85.3 (07+12)**  |    83.1 (07++12)    |     40.5   |    ICCV'19   |
+|   Auto-FPN   |     81.8 (07++12)   |          -          |     40.5   |    ICCV'19   |
+|     FCOS     |          -          |          -          |     44.7   |    ICCV'19   |
+|   FreeAnchor |          -          |          -          |     44.8   |  NeurIPS'19  |
+|    DetNAS    |     81.5 (07++12)   |          -          |     42.0   |  NeurIPS'19  |
+|     NATS     |          -          |          -          |     42.0   |  NeurIPS'19  |
 | AmoebaNet + NAS-FPN + AA |   -     |          -          |     50.7   |    arXiv'19  |
 | EfficientDet |          -          |          -          |   **51.0** |    arXiv'19  |
 
@@ -262,7 +274,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[Libra R-CNN]** Libra R-CNN: Balanced Learning for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.02701.pdf) 
 
-- Feature Selective Anchor-Free Module for Single-Shot Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.00621.pdf) 
+- **[FSAF]** Feature Selective Anchor-Free Module for Single-Shot Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.00621.pdf) 
 
 - **[ExtremeNet]** Bottom-up Object Detection by Grouping Extreme and Center Points | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.08043.pdf) | [`[official code - pytorch]`](https://github.com/xingyizhou/ExtremeNet)
 
@@ -305,7 +317,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Multi-task Self-Supervised Object Detection via Recycling of Bounding Box Annotations | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lee_Multi-Task_Self-Supervised_Object_Detection_via_Recycling_of_Bounding_Box_Annotations_CVPR_2019_paper.pdf)
 
-- **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]** |[`[pdf]`]()
+- **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Reasoning-RCNN_Unifying_Adaptive_Global_Reasoning_Into_Large-Scale_Object_Detection_CVPR_2019_paper.pdf)
 
 - Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05980.pdf)
 
