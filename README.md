@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/10/18*
+*Last updated: 2019/11/22*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -17,6 +17,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/june* - update CVPR 2019 papers and dataset paper.  
 *2019/july* - update BMVC 2019 papers and some of ICCV 2019 papers.  
 *2019/september* - update NeurIPS 2019 papers and ICCV 2019 papers.  
+*2019/november* - update some of AAAI 2020 papers and other papers.
 
 
 
@@ -85,7 +86,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 |      SIN     |     76.0 (07+12)    |    73.1 (07++12)    |    23.2    |    CVPR'18   |
 |     STDN     |     80.9 (07+12)    |          -          |      -     |    CVPR'18   |
 |   RefineDet  |     83.8 (07+12)    |    83.5 (07++12)    |    41.8    |    CVPR'18   |
-|     SNIP     |          -          |          -          |  **45.7**  |    CVPR'18   |
+|     SNIP     |          -          |          -          |    45.7    |    CVPR'18   |
 |Relation-Network|        -          |          -          |     32.5   |    CVPR'18   |
 | Cascade R-CNN|          -          |          -          |     42.8   |    CVPR'18   |
 |     MLKP     |     80.6 (07+12)    |    77.2 (07++12)    |     28.6   |    CVPR'18   |
@@ -97,6 +98,9 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 |     HKRM     |     78.8 (07+12)    |          -          |     37.8   |    NIPS'18   |
 |     M2Det    |          -          |          -          |     44.2   |    AAAI'19   |
 |     R-DAD    |     81.2 (07++12)   |    82.0 (07++12)    |     43.1   |    AAAI'19   |
+| AmoebaNet + NAS-FPN |     -        |          -          |     47.0   |    CVPR'19   |
+| AmoebaNet + NAS-FPN + AA |   -     |          -          |     50.7   |    arXiv'19  |
+| EfficientDet |          -          |          -          |   **51.0** |    arXiv'19  |
 
 ##
 
@@ -333,9 +337,9 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Delving Into Robust Object Detection From Unmanned Aerial Vehicles: A Deep Nuisance Disentanglement Approach | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.03856.pdf)
 
-- Employing Deep Part-Object Relationships for Salient Object Detection	| **[ICCV' 19]**
+- Employing Deep Part-Object Relationships for Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Employing_Deep_Part-Object_Relationships_for_Salient_Object_Detection_ICCV_2019_paper.pdf)
 
-- Learning Rich Features at High-Speed for Single-Shot Object Detection	| **[ICCV' 19]**
+- Learning Rich Features at High-Speed for Single-Shot Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Rich_Features_at_High-Speed_for_Single-Shot_Object_Detection_ICCV_2019_paper.pdf)
 
 - Structured Modeling of Joint Deep Feature and Prediction Refinement for Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.04366.pdf)
 
@@ -345,13 +349,13 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Minimum Delay Object Detection From Video	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.11092.pdf)
 
-- Towards Interpretable Object Detection by Unfolding Latent Structures	 | **[ICCV' 19]** 
+- Towards Interpretable Object Detection by Unfolding Latent Structures	 | **[ICCV' 19]**  |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Towards_Interpretable_Object_Detection_by_Unfolding_Latent_Structures_ICCV_2019_paper.pdf)
 
 - Scaling Object Detection by Transferring Classification Weights	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.06804.pdf)
 
 - **[TridentNet]** Scale-Aware Trident Networks for Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.01892.pdf)
 
-- Generative Modeling for Small-Data Object Detection	| **[ICCV' 19]**
+- Generative Modeling for Small-Data Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Generative_Modeling_for_Small-Data_Object_Detection_ICCV_2019_paper.pdf)
 
 - Transductive Learning for Zero-Shot Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://salman-h-khan.github.io/papers/ICCV19-2.pdf)
 
@@ -361,11 +365,11 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[DAFS]** Dynamic Anchor Feature Selection for Single-Shot Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV-DAFS.pdf)
 
-- **[Auto-FPN]** Auto-FPN: Automatic Network Architecture Adaptation for Object Detection Beyond Classification	| **[ICCV' 19]**
+- **[Auto-FPN]** Auto-FPN: Automatic Network Architecture Adaptation for Object Detection Beyond Classification	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Auto-FPN_Automatic_Network_Architecture_Adaptation_for_Object_Detection_Beyond_Classification_ICCV_2019_paper.pdf)
 
 - Multi-Adversarial Faster-RCNN for Unrestricted Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10343.pdf)
 
-- Object Guided External Memory Network for Video Object Detection | **[ICCV' 19]**
+- Object Guided External Memory Network for Video Object Detection | **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Deng_Object_Guided_External_Memory_Network_for_Video_Object_Detection_ICCV_2019_paper.pdf)
 
 - **[ThunderNet]** ThunderNet: Towards Real-Time Generic Object Detection on Mobile Devices	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.11752.pdf)
 
@@ -375,23 +379,23 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Towards High-Resolution Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.07274.pdf)
 
-- **[SCAN]** Stacked Cross Refinement Network for Edge-Aware Salient Object Detection	| **[ICCV' 19]** |[`[official code]`](https://github.com/wuzhe71/SCAN)
+- **[SCAN]** Stacked Cross Refinement Network for Edge-Aware Salient Object Detection	| **[ICCV' 19]** |[`[official code]`](https://github.com/wuzhe71/SCAN) |[`[pdf]`]()
 
 - Motion Guided Attention for Video Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.07061.pdf)
 
 - Semi-Supervised Video Salient Object Detection Using Pseudo-Labels	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.04051.pdf)
 
-- Learning to Rank Proposals for Object Detection	| **[ICCV' 19]**
+- Learning to Rank Proposals for Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tan_Learning_to_Rank_Proposals_for_Object_Detection_ICCV_2019_paper.pdf)
 
 - **[WSOD2]** WSOD2: Learning Bottom-Up and Top-Down Objectness Distillation for Weakly-Supervised Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.04972.pdf)
 
 - **[ClusDet]** Clustered Object Detection in Aerial Images	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.08008.pdf)
 
-- Towards Precise End-to-End Weakly Supervised Object Detection Network	| **[ICCV' 19]**
+- Towards Precise End-to-End Weakly Supervised Object Detection Network	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Towards_Precise_End-to-End_Weakly_Supervised_Object_Detection_Network_ICCV_2019_paper.pdf)
 
 - Few-Shot Object Detection via Feature Reweighting	 | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.01866.pdf)
 
-- **[Objects365]** Objects365: A Large-Scale, High-Quality Dataset for Object Detection	| **[ICCV' 19]**
+- **[Objects365]** Objects365: A Large-Scale, High-Quality Dataset for Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shao_Objects365_A_Large-Scale_High-Quality_Dataset_for_Object_Detection_ICCV_2019_paper.pdf)
 
 - **[EGNet]** EGNet: Edge Guidance Network for Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.08297.pdf)
 
@@ -401,7 +405,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[NOTE-RCNN]** NOTE-RCNN: NOise Tolerant Ensemble RCNN for Semi-Supervised Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.00124.pdf)	
 
-- Enriched Feature Guided Refinement Network for Object Detection	| **[ICCV' 19]**
+- Enriched Feature Guided Refinement Network for Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nie_Enriched_Feature_Guided_Refinement_Network_for_Object_Detection_ICCV_2019_paper.pdf)
 
 - **[POD]** POD: Practical Object Detection With Scale-Sensitive Network	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02225.pdf)	
 
@@ -409,17 +413,17 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[RepPoints]** RepPoints: Point Set Representation for Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.11490.pdf)	
 
-- Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection	| **[ICCV' 19]** 
+- Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Noh_Better_to_Follow_Follow_to_Be_Better_Towards_Precise_Supervision_ICCV_2019_paper.pdf)
 
 - Weakly Supervised Object Detection With Segmentation Collaboration	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.00551.pdf)	
 
-- Leveraging Long-Range Temporal Relationships Between Proposals for Video Object Detection	| **[ICCV' 19]**
+- Leveraging Long-Range Temporal Relationships Between Proposals for Video Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shvets_Leveraging_Long-Range_Temporal_Relationships_Between_Proposals_for_Video_Object_Detection_ICCV_2019_paper.pdf)
 
 - Detecting 11K Classes: Large Scale Object Detection Without Fine-Grained Bounding Boxes	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.05217.pdf)	
 
-- **[C-MIDN]** C-MIDN: Coupled Multiple Instance Detection Network With Segmentation Guidance for Weakly Supervised Object Detection	| **[ICCV' 19]** 
+- **[C-MIDN]** C-MIDN: Coupled Multiple Instance Detection Network With Segmentation Guidance for Weakly Supervised Object Detection	| **[ICCV' 19]** |[`[pdf]`]()
 
-- Meta-Learning to Detect Rare Objects	| **[ICCV' 19]**
+- Meta-Learning to Detect Rare Objects	| **[ICCV' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.pdf)
 
 - **[Cap2Det]** Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10164v1.pdf)
 
@@ -427,15 +431,24 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[FreeAnchor]** FreeAnchor: Learning to Match Anchors for Visual Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02466v1.pdf)
 
-- Memory-oriented Decoder for Light Field Salient Object Detection | **[NeurIPS' 19]** |
+- Memory-oriented Decoder for Light Field Salient Object Detection | **[NeurIPS' 19]** |[`[pdf]`](http://papers.nips.cc/paper/8376-memory-oriented-decoder-for-light-field-salient-object-detection.pdf)
 
-- One-Shot Object Detection with Co-Attention and Co-Excitation | **[NeurIPS' 19]** |
+- One-Shot Object Detection with Co-Attention and Co-Excitation | **[NeurIPS' 19]** |[`[pdf]`](http://papers.nips.cc/paper/8540-one-shot-object-detection-with-co-attention-and-co-excitation.pdf)
 
 - **[DetNAS]** DetNAS: Backbone Search for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.10979.pdf)
 
-- Consistency-based Semi-supervised Learning for Object detection | **[NeurIPS' 19]** |
+- Consistency-based Semi-supervised Learning for Object detection | **[NeurIPS' 19]** |[`[pdf]`](https://papers.nips.cc/paper/9259-consistency-based-semi-supervised-learning-for-object-detection.pdf)
 
 - **[NATS]** Efficient Neural Architecture Transformation Searchin Channel-Level for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02293.pdf)
+
+- **[AA]** Learning Data Augmentation Strategies for Object Detection | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1906.11172.pdf)
+
+- **[EfficientDet]** EfficientDet: Scalable and Efficient Object Detection | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1911.09070v1.pdf)
+
+## 2020
+- **[Spiking-YOLO]** Spiking-YOLO: Spiking Neural Network for Real-time Object Detection | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1903.06530.pdf)
+
+- Tell Me What They're Holding: Weakly-supervised Object Detection with Transferable Knowledge from Human-object Interaction | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.08141v1.pdf)
 
 
 ##
