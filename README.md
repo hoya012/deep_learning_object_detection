@@ -543,6 +543,6 @@ The papers related to datasets used mainly in Object Detection are as follows.
 
 If you have any suggestions about papers, feel free to mail me :)
 
-- [e-mail](mailto:lee.hoseong@sualab.com)
+- [e-mail](mailto:Hoseong.Lee@cognex.com)
 - [blog](https://hoya012.github.io/)
 - [pull request](https://github.com/hoya012/deep_learning_object_detection/pulls)
