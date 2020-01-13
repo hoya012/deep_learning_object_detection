@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/11/26*
+*Last updated: 2020/01/13*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -18,6 +18,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/july* - update BMVC 2019 papers and some of ICCV 2019 papers.  
 *2019/september* - update NeurIPS 2019 papers and ICCV 2019 papers.  
 *2019/november* - update some of AAAI 2020 papers and other papers.
+*2020/january* - update ICLR 2020 papers and other papers.
 
 
 
@@ -463,6 +464,10 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - Tell Me What They're Holding: Weakly-supervised Object Detection with Transferable Knowledge from Human-object Interaction | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.08141v1.pdf)
 
 - Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.08287v1.pdf)
+
+- Computation Reallocation for Object Detection | **[ICLR' 20]** |[`[pdf]`](https://openreview.net/pdf?id=SkxLFaNKwB)
+
+
 
 
 ##
