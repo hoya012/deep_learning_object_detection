@@ -466,6 +466,8 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Computation Reallocation for Object Detection | **[ICLR' 20]** |[`[pdf]`](https://openreview.net/pdf?id=SkxLFaNKwB)
 
+- **[YOLOv4]** YOLOv4: Optimal Speed and Accuracy of Object Detection | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2004.10934.pdf)
+
 - Few-Shot Object Detection With Attention-RPN and Multi-Relation Detector | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1908.01998.pdf)
 
 - Large-Scale Object Detection in the Wild From Imbalanced Multi-Labels | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/2005.08455.pdf)
