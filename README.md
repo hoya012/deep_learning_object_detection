@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2020/05/22*
+*Last updated: 2020/06/08*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -20,6 +20,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/november* - update some of AAAI 2020 papers and other papers.  
 *2020/january* - update ICLR 2020 papers and other papers.  
 *2020/may* - update CVPR 2020 papers and other papers.  
+*2020/june* - update arxiv papers.  
 
 
 ##
@@ -34,6 +35,7 @@ A paper list of object detection using deep learning. I wrote this page with ref
   - [2017](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2017)
   - [2018](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2018)
   - [2019](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2019)
+  - [2020](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#2020)
 - [Dataset Papers](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#dataset-papers)
 
 ##
@@ -105,6 +107,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 |      FSAF    |          -          |          -          |     44.6   |    CVPR'19   |
 | AmoebaNet + NAS-FPN |     -        |          -          |     47.0   |    CVPR'19   |
 | Cascade-RetinaNet |       -        |           -         |     41.1   |    CVPR'19   |
+|      HTC     |          -          |          -          |     47.2   |    CVPR'19   |
 |   TridentNet |          -          |          -          |     48.4   |    ICCV'19   |
 |      DAFS    |   **85.3 (07+12)**  |    83.1 (07++12)    |     40.5   |    ICCV'19   |
 |   Auto-FPN   |     81.8 (07++12)   |          -          |     40.5   |    ICCV'19   |
@@ -113,7 +116,10 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 |    DetNAS    |     81.5 (07++12)   |          -          |     42.0   |  NeurIPS'19  |
 |     NATS     |          -          |          -          |     42.0   |  NeurIPS'19  |
 | AmoebaNet + NAS-FPN + AA |   -     |          -          |     50.7   |    arXiv'19  |
-| EfficientDet |          -          |          -          |   **51.0** |    arXiv'19  |
+|   SpineNet   |          -          |          -          |     52.1   |    arXiv'19  |
+|     CBNet    |          -          |          -          |     53.3   |    AAAI'20   |
+| EfficientDet |          -          |          -          |     52.6   |    CVPR'20   |
+|  DetectoRS   |          -          |          -          |     **54.7**   |    arXiv'20   |
 
 ##
 
@@ -334,6 +340,8 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05396.pdf)
 
+- Hybrid Task Cascade for Instance Segmentation | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.07518.pdf)
+
 - **[GFR]** Improving Object Detection from Scratch via Gated Feature Reuse | **[BMVC' 19]** |[`[pdf]`](https://arxiv.org/pdf/1712.00886v2.pdf) | [`[official code - pytorch]`](https://github.com/szq0214/GFR-DSOD)
 
 - **[Cascade RetinaNet]** Cascade RetinaNet: Maintaining Consistency for Single-Stage Object Detection | **[BMVC' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.06881v1.pdf)
@@ -456,11 +464,15 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[AA]** Learning Data Augmentation Strategies for Object Detection | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1906.11172.pdf)
 
+- **[Spinenet]** Spinenet: Learning scale-permuted backbone for recognition and localization | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1912.05027.pdf)
+
 
 ## 2020
 - **[Spiking-YOLO]** Spiking-YOLO: Spiking Neural Network for Real-time Object Detection | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1903.06530.pdf)
 
 - Tell Me What They're Holding: Weakly-supervised Object Detection with Transferable Knowledge from Human-object Interaction | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.08141v1.pdf)
+
+- **[CBnet]** Cbnet: A novel composite backbone network architecture for object detection | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1909.03625.pdf)
 
 - **[Distance-IoU Loss]** Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.08287v1.pdf)
 
@@ -482,7 +494,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Learning From Noisy Anchors for One-Stage Object Detection | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1912.05086.pdf)
 
-- **[EfficientDet]** EfficientDet: Scalable and Efficient Object Detection | **[CVPR' 2-]** |[`[pdf]`](https://arxiv.org/pdf/1911.09070.pdf)
+- **[EfficientDet]** EfficientDet: Scalable and Efficient Object Detection | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1911.09070.pdf)
 
 - Overcoming Classifier Imbalance for Long-Tail Object Detection With Balanced Group Softmax | **[CVPR' 20]** 
 
@@ -547,6 +559,8 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - Learning a Unified Sample Weighting Network for Object Detection	 | **[CVPR' 20]** 
 
 - Seeing without Looking: Contextual Rescoring of Object Detections for AP Maximization	 | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1912.12290.pdf)
+
+- DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution	 | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2006.02334v1.pdf)
 
 
 ##
