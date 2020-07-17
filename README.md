@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2020/06/08*
+*Last updated: 2020/07/17*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -466,6 +466,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - **[Spinenet]** Spinenet: Learning scale-permuted backbone for recognition and localization | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1912.05027.pdf)
 
+- Object Detection in 20 Years: A Survey | **[arXiv' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05055.pdf)
 
 ## 2020
 - **[Spiking-YOLO]** Spiking-YOLO: Spiking Neural Network for Real-time Object Detection | **[AAAI' 20]** |[`[pdf]`](https://arxiv.org/pdf/1903.06530.pdf)
@@ -561,6 +562,49 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 - Seeing without Looking: Contextual Rescoring of Object Detections for AP Maximization	 | **[CVPR' 20]** |[`[pdf]`](https://arxiv.org/pdf/1912.12290.pdf)
 
 - DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution	 | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2006.02334v1.pdf)
+
+- **[DETR]** End-to-End Object Detection with Transformers	| **[ECCV' 20]** |[`[pdf]`](https://arxiv.org/pdf/2005.12872.pdf)
+
+- Suppress and Balance: A Simple Gated Network for Salient Object Detection	| **[ECCV' 20]** |[`[code]`](https://github.com/Xiaoqi-Zhao-DLUT/GateNet-RGB-Saliency)
+
+- **[BorderDet]** BorderDet: Border Feature for Dense Object Detection | **[ECCV' 20]** 
+- Corner Proposal Network for Anchor-free, Two-stage Object Detection	| **[ECCV' 20]** 
+- A General Toolbox for Understanding Errors in Object Detection	| **[ECCV' 20]** 
+- **[Chained-Tracker]** Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking		| **[ECCV' 20]** 
+- Side-Aware Boundary Localization for More Precise Object Detection	| **[ECCV' 20]** 
+- **[PIoU]** PIoU Loss: Towards Accurate Oriented Object Detection in Complex Environments	| **[ECCV' 20]** 
+- **[AABO]** AABO: Adaptive Anchor Box Optimization for Object Detection via Bayesian Sub-sampling	| **[ECCV' 20]** 
+- Highly Efficient Salient Object Detection with 100K Parameters		| **[ECCV' 20]** 
+- **[GeoGraph]** GeoGraph: Learning graph-based multi-view object detection with geometric cues end-to-end		| **[ECCV' 20]** 
+- Many-shot from Low-shot: Learning to Annotate using Mixed Supervision for Object Detection		| **[ECCV' 20]** 
+- Cheaper Pre-training Lunch: An Efficient Paradigm for Object Detection	| **[ECCV' 20]** 
+- Arbitrary-Oriented Object Detection with Circular Smooth Label	| **[ECCV' 20]** 
+- Soft Anchor-Point Object Detection		| **[ECCV' 20]** 
+- Object Detection with a Unified Label Space from Multiple Datasets	| **[ECCV' 20]** 
+- **[MimicDet]** MimicDet: Bridging the Gap Between One-Stage and Two-Stage Object Detection		| **[ECCV' 20]** 
+- Prior-based Domain Adaptive Object Detection for Hazy and Rainy Conditions		| **[ECCV' 20]** 
+- **[Dynamic R-CNN]** Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training		| **[ECCV' 20]** 
+- **[OS2D]** OS2D: One-Stage One-Shot Object Detection by Matching Anchor Features		| **[ECCV' 20]** 
+- Multi-Scale Positive Sample Refinement for Few-Shot Object Detection		| **[ECCV' 20]** 
+- Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild		| **[ECCV' 20]** 
+- Collaborative Training between Region Proposal Localization and Classification for Domain Adaptive Object Detection		| **[ECCV' 20]** 
+- Two-Stream Active Query Suggestion for Large-Scale Object Detection in Connectomics		| **[ECCV' 20]** 
+- **[FDTS]** FDTS: Fast Diverse-Transformation Search for Object Detection and Beyond		| **[ECCV' 20]** 
+- Dual refinement underwater object detection network		| **[ECCV' 20]** 
+- **[APRICOT]** APRICOT: A Dataset of Physical Adversarial Attacks on Object Detection		| **[ECCV' 20]** 
+- Large Batch Optimization for Object Detection: Training COCO in 12 Minutes		| **[ECCV' 20]** 
+- Hierarchical Context Embedding for Region-based Object Detection		| **[ECCV' 20]** 
+- Pillar-based Object Detection for Autonomous Driving		| **[ECCV' 20]** 
+- Dive Deeper Into Box for Object Detection		| **[ECCV' 20]** 
+- Domain Adaptive Object Detection via Asymmetric Tri-way Faster-RCNN		| **[ECCV' 20]** 
+- Probabilistic Anchor Assignment with IoU Prediction for Object Detection		| **[ECCV' 20]** 
+- **[HoughNet]** HoughNet: Integrating near and long-range evidence for bottom-up object detection		| **[ECCV' 20]** 
+- **[LabelEnc]** LabelEnc: A New Intermediate Supervision Method for Object Detection		| **[ECCV' 20]** 
+- Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer		| **[ECCV' 20]** 
+- On the Importance of Data Augmentation for Object Detection		| **[ECCV' 20]** 
+- Adaptive Object Detection with Dual Multi-Label Prediction		| **[ECCV' 20]** 
+- Quantum-soft QUBO Suppression for Accurate Object Detection		| **[ECCV' 20]** 
+- Improving Object Detection with Selective Self-supervised Self-training		| **[ECCV' 20]** 
 
 
 ##
