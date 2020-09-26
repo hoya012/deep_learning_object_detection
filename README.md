@@ -29,7 +29,7 @@ A paper list of object detection using deep learning. I worte this page with ref
 - [Dataset Papers](https://github.com/hoya012/deep_learning_object_detection/blob/master/README.md#dataset-papers)
 
 ##
-
+修改处
 ## Paper list from 2014 to now(2019)
 The part highlighted with red characters means papers that i think "must-read".
 However, it is **my personal opinion** and other papers are important too, so I recommend to read them if you have time.
