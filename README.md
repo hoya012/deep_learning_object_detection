@@ -636,7 +636,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer		| **[ECCV' 20]** |[`[pdf]`](https://arxiv.org/pdf/2007.07986.pdf)
 
-- On the Importance of Data Augmentation for Object Detection		| **[ECCV' 20]** |[`[pdf]`]
+- On the Importance of Data Augmentation for Object Detection		| **[ECCV' 20]** |[`[pdf]`](https://arxiv.org/abs/1906.11172)
 
 - Adaptive Object Detection with Dual Multi-Label Prediction		| **[ECCV' 20]** |[`[pdf]`](https://arxiv.org/pdf/2003.12943.pdf)
 
