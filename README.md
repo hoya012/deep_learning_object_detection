@@ -1,4 +1,8 @@
 # deep learning object detection
+Changes made by Harshveer 
+
+
+
 list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
 *Last updated: 2020/09/22*
